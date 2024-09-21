@@ -1,0 +1,103 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+ 92.53      0.12     0.12                             stringLength
+  7.71      0.13     0.01                             profileMyStringFunc
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+ 92.53      0.12     0.12                             stringLength
+  7.71      0.13     0.01                             profileMyStringFunc
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+100.24      0.06     0.06                             profileStdStringFunc
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+100.24      0.03     0.03                             profileStdStringFunc
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+100.24      0.03     0.03                             profileStdStringFunc
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+100.24      0.02     0.02                             profileStdStringFunc
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+ 78.76      0.11     0.11                             stringLength
+  7.16      0.12     0.01                             profileMyStringFunc
+  7.16      0.13     0.01                             profileStdStringFunc
+  7.16      0.14     0.01                             temp
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+ 80.78      1.37     1.37                             stringLength
+ 14.74      1.62     0.25                             profileStdStringFunc
+  4.72      1.70     0.08                             profileMyStringFunc
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+ 84.98      1.17     1.17                             stringLength
+ 10.17      1.31     0.14                             profileStdStringFunc
+  4.36      1.37     0.06                             profileMyStringFunc
+  0.73      1.38     0.01                             _init
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+ 78.17      1.24     1.24                             stringLength
+ 18.28      1.53     0.29                             profileStdStringFunc
+  3.78      1.59     0.06                             profileMyStringFunc
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+ 77.53      0.99     0.99                             stringLength
+ 16.44      1.20     0.21                             profileStdStringFunc
+  6.26      1.28     0.08                             profileMyStringFunc
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+ 50.12      0.25     0.25                             profileMyStringFunc
+ 46.11      0.48     0.23                             profileStdStringFunc
+  4.01      0.50     0.02                             stringLength
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+ 44.79      0.21     0.21                             profileMyStringFunc
+ 44.79      0.42     0.21                             profileStdStringFunc
+ 10.66      0.47     0.05                             stringLength
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+ 52.96      0.28     0.28                             profileStdStringFunc
+ 41.61      0.50     0.22                             profileMyStringFunc
+  3.78      0.52     0.02                             stringLength
+  1.89      0.53     0.01                             temp
