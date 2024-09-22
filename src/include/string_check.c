@@ -31,6 +31,16 @@ size_t stringLength2(char* current_string) {
   return (b - current_string);
 }
 
+bool is_match(char* haystack, char* needle, uint16_t haystack_start, uint16_t needle_length) {
+  bool is_same = true;
+  for(int index = 0; index < needle_length; index++) {
+    if(haystack[haystack_start + index] != needle[index]) {
+      is_same = false;
+    }
+  }
+  return is_same;
+}
+
 int strStr(char* haystack, char* needle) {
     enum switch_cases {
       WRONG_SIZE = 1,
@@ -132,8 +142,17 @@ int strStr(char* haystack, char* needle) {
       };
       default: {
         (void) printf("%s %d- default\thaystack: %s\tneedle:%s\n", __func__, __LINE__, haystack, needle);
-        first_occurence = -2;
-        break;
+        for(int16_t index = 0; index < (haystack_length - needle_length); index++) {
+          //(void) printf("Haystack char %c\tneedle 0 char%c\n", haystack[index], needle[0]);
+          if(needle[0] == haystack[index] && (haystack[index + (needle_length -1)], needle[(needle_length-1)])) {
+            /* (void) printf("Haystack char %c\tneedle 0 char%c\n", haystack[index], needle[0]);
+            (void) printf("Haystack + needle_length char %c\tneedle[needle_length-1] char %c\n", haystack[index + (needle_length -1)], needle[(needle_length-1)]);
+            (void) printf("is match? %d\n", is_match(haystack, needle, index, needle_length)); */
+            if( is_match(haystack, needle, index, needle_length)) {
+              return index;
+            }
+          }
+        }
       }
     }
 
