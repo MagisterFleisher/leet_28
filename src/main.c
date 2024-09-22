@@ -97,6 +97,13 @@ int main(int argument_count, char** argument_vector) {
 
   char* haystack9 = "0adshtaleetcode";
   char* needle9 = "leet";
+
+  char* haystack10 = "abc";
+  char* needle10 = "c";
+  
+  char* haystack11 = "mississippi";
+  char* needle11 = "pi";
+
   // int first_occurence = strStr(haystack, needle);
   //(void) profileMyStringFunc(haystack);
   //(void) profileStdStringFunc(haystack);
@@ -111,6 +118,8 @@ int main(int argument_count, char** argument_vector) {
   (void) printf("case 7 first occurence: %d\n", strStr(haystack7, needle7));
   (void) printf("case 8 first occurence: %d\n", strStr(haystack8, needle8));
   (void) printf("case 9 first occurence: %d\n", strStr(haystack9, needle9));
+  (void) printf("case 10 first occurence: %d\n", strStr(haystack10, needle10));
+  (void) printf("case 11 first occurence: %d\n", strStr(haystack11, needle11));
 
   return error;
 }

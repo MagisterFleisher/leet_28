@@ -128,21 +128,16 @@ int strStr(char* haystack, char* needle) {
       };
       case NEEDLE_1  : {
         (void) printf("%s %d- NEEDLE 1\thaystack: %s\tneedle:%s\n", __func__, __LINE__, haystack, needle);
-        char* tmp_haystack_1 = haystack;
-        uint16_t tmp_index = 0;
-        while('\0' == *tmp_haystack_1) {
-          if(*tmp_haystack_1 == needle[0]) {
-            first_occurence = (int) tmp_index;
-          } else {
-            tmp_haystack_1++;
-            tmp_index++;
+        for(int16_t index = 0; index < haystack_length; index++) {
+          if(needle[0] == haystack[index]) {
+            return index;
           }
         }
         break;
       };
       default: {
         (void) printf("%s %d- default\thaystack: %s\tneedle:%s\n", __func__, __LINE__, haystack, needle);
-        for(int16_t index = 0; index < (haystack_length - needle_length); index++) {
+        for(int16_t index = 0; index < (haystack_length - (needle_length -1)); index++) {
           //(void) printf("Haystack char %c\tneedle 0 char%c\n", haystack[index], needle[0]);
           if(needle[0] == haystack[index] && (haystack[index + (needle_length -1)], needle[(needle_length-1)])) {
             /* (void) printf("Haystack char %c\tneedle 0 char%c\n", haystack[index], needle[0]);
